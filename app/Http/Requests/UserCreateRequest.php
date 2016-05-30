@@ -30,7 +30,7 @@ class UserCreateRequest extends Request
             'role_id'=>'required',
             'is_active'=>'required',
             'password'=>'required'
-            
+        
         ];
     }
 }

@@ -46,8 +46,11 @@ class AdminUsersController extends Controller
     {
         //
 //        return view('admin.users.store');
+            User::create($request->all());
+        return redirect('/admin/users');
 
-        return $request->all();
+
+//        return $request->all();
     }
 
     /**
