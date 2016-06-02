@@ -50,7 +50,11 @@ class AdminUsersController extends Controller
 //        return view('admin.users.store');
 //            User::create($request->all());
 //
-        $input = $request->all();
+        if (trim($request->password) == '') {
+            $input = $request->except('password');
+            } else {
+            $input = $request->all();
+        }
         if($file = $request->file('photo_id')){
             $name = time() . $file->getClientOriginalName();
             $file->move('images', $name);
@@ -100,16 +104,21 @@ class AdminUsersController extends Controller
     {
         //
         $user = User::findOrFail($id);
-        $input = $request->all();
+        if (trim($request->password) == '') {
+            $input = $request->except('password');
+            } else {
+            $input = $request->all();
+        }
         if($file = $request->file('photo_id')) {
             $name = time() . $file->getClientOriginalName();
             $file->move('images', $name);
             $photo = Photo::create(['file' => $name]);
             $input['photo_id'] = $photo->id;
         }
+        $input['password'] = bcrypt($request->password);
         $user->update($input);
 
-        return redirect('/admin/users');
+        return redirect()->route('admin.users.index');
 
     }
 
