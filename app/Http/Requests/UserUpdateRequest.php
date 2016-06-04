@@ -28,8 +28,7 @@ class UserUpdateRequest extends Request
             'name'=>'required',
             'email'=>'required',
             'role_id'=>'required',
-            'is_active'=>'required',
-            'password'=>'required'
+            'is_active'=>'required'
             //
         
         ];
