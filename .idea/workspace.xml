@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="80bd3aa8-a3e5-4de2-a005-819dd62f5c74" name="Default" comment="">
+    <list default="true" id="80bd3aa8-a3e5-4de2-a005-819dd62f5c74" name="Default" comment="Laravel 5.2 displaying all posts and setting up">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lesson.iws" />
@@ -411,7 +411,7 @@
       <workItem from="1464969987119" duration="2568000" />
       <workItem from="1465055707222" duration="881000" />
       <workItem from="1465056628121" duration="441000" />
-      <workItem from="1465141591580" duration="4550000" />
+      <workItem from="1465141591580" duration="4592000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel 5.2 Adding upload file feature to form&#10;Persisting data and fixing bug&#10;">
       <created>1464629250450</created>
@@ -490,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465147221496</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Laravel 5.2 displaying all posts and setting up">
+      <created>1465147461666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1465147461666</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54496000" />
+    <option name="totallyTimeSpent" value="54538000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
