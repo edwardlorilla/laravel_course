@@ -11,7 +11,7 @@
 
         <div class="form-group">
             {!! Form::label('category_id', 'Category:') !!}
-            {!! Form::select('category_id', ['' =>'Choose an option'],null, ['class'=>'form-control']) !!}
+            {!! Form::select('category_id', ['' =>'Choose an option']+ $categories,null, ['class'=>'form-control']) !!}
 
         </div>
 
@@ -27,10 +27,10 @@
         </div>
 
         <div class="form-group">
-        {!! Form::submit('Create Post', ['class'=>'form-control']) !!}
+            {!! Form::submit('Create Post', ['class'=>'form-control']) !!}
         </div>
     </div>
     <div class="row">
         @include('includes.form_error')
     </div>
-    @endsection
+@endsection
