@@ -11,7 +11,6 @@
         <th>Body</th>
         <th>Created_at</th>
         <th>Updated at</th>
-        </thead>
 
     @if($posts)
         @foreach($posts as $post)
