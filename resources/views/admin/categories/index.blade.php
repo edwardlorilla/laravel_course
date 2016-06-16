@@ -3,11 +3,16 @@
 
     <div class="col-md-6">
         {!! Form::open(['method'=>'POST', 'action'=>'AdminCategoriesController@store'])!!}
-            <div class="form-group">
-                {!!  Form::label('name', 'Name:')  !!}
-                {!!  Form::text('name', null, ['class'=>'form-control']) !!}
-                {!!  Form::submit('Create Category', ['class'=>'btn btn-info']) !!}
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    {!!  Form::label('name', 'Name:')  !!}
+                    {!!  Form::text('name', null, ['class'=>'form-control']) !!}
+                </div>
+                <div class="panel-footer">
+                    {!!  Form::submit('Create Category', ['class'=>'btn btn-info']) !!}
+                </div>
             </div>
+
         {!! Form::close()!!}
     </div>
     <div class="col-md-6">

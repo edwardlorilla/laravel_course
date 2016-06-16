@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="80bd3aa8-a3e5-4de2-a005-819dd62f5c74" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Http/routes.php" afterPath="$PROJECT_DIR$/app/Http/routes.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" afterPath="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" />
     </list>
     <ignored path="lesson.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,8 +29,8 @@
       <file leaf-file-name="AdminCategoriesController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+            <state relative-caret-position="688">
+              <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
               <folding>
                 <element signature="e#40#57#0#PHP" expanded="true" />
               </folding>
@@ -39,13 +38,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+            <state relative-caret-position="328">
+              <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
               <folding>
-                <marker date="1466005599921" expanded="true" signature="78:458" placeholder="..." />
+                <marker date="1466081132104" expanded="true" signature="78:610" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.blade.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="252">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding>
+                <marker date="1466082119485" expanded="true" signature="46:824" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -140,8 +151,9 @@
         <option value="$PROJECT_DIR$/resources/views/admin/posts/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/routes.php" />
         <option value="$PROJECT_DIR$/app/Category.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/categories/index.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php" />
+        <option value="$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php" />
       </list>
     </option>
   </component>
@@ -163,7 +175,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
+    <option name="width" value="1284" />
     <option name="height" value="1010" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -199,7 +211,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -212,23 +224,33 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="ProjectPane">
-        <subPane />
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="index&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/categories/index.blade.php&#10;adminca&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminCategoriesController.php&#10;Cate&#9;null&#9;null&#10;admin&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminCategoriesController.php&#10;inde&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/categories/index.blade.php&#10;route&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/routes.php&#10;Admin&#9;null&#9;null&#10;postco&#9;null&#9;null&#10;Postc&#9;null&#9;null&#10;create&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/posts/create.blade.php&#10;edit&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/posts/edit.blade.php&#10;ed&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/posts/edit.blade.php&#10;lay&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/layout.blade.php&#10;postc&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;edi&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/posts/edit.blade.php&#10;post&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;postcreatr&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Requests/PostCreateRequest.php&#10;postsc&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;post c&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;user&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminUsersController.php&#10;users&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminUsersController.php&#10;Photo&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Photo.php&#10;PostCreateRequest&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Requests/PostCreateRequest.php&#10;PostC&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;CreateReq&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Requests/PostCreateRequest.php&#10;PostCrea&#9;null&#9;null&#10;layou&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/layout.blade.php&#10;User&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/User.php&#10;admi&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminUsersController.php&#10;routes.php&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/routes.php" />
+    <property name="SearchEverywhereHistoryKey" value="edit&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/categories/edit.blade.php&#10;cate&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminCategoriesController.php&#10;index&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/categories/index.blade.php&#10;ed&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/categories/edit.blade.php&#10;admin&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminCategoriesController.php&#10;cat&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminCategoriesController.php&#10;adminca&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminCategoriesController.php&#10;Cate&#9;null&#9;null&#10;inde&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/categories/index.blade.php&#10;route&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/routes.php&#10;Admin&#9;null&#9;null&#10;postco&#9;null&#9;null&#10;Postc&#9;null&#9;null&#10;create&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/posts/create.blade.php&#10;lay&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/layout.blade.php&#10;postc&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;edi&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/admin/posts/edit.blade.php&#10;post&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;postcreatr&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Requests/PostCreateRequest.php&#10;postsc&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;post c&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;user&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminUsersController.php&#10;users&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminUsersController.php&#10;Photo&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Photo.php&#10;PostCreateRequest&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Requests/PostCreateRequest.php&#10;PostC&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminPostsController.php&#10;CreateReq&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Requests/PostCreateRequest.php&#10;PostCrea&#9;null&#9;null&#10;layou&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/resources/views/layout.blade.php&#10;User&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/User.php&#10;admi&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/Controllers/AdminUsersController.php&#10;routes.php&#9;FILE&#9;file://C:/xampp2/htdocs/lesson/app/Http/routes.php" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="true" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="111" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="139" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="141" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="815" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="133" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="808" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -298,7 +320,8 @@
       <workItem from="1465399850083" duration="4920000" />
       <workItem from="1465488606875" duration="5765000" />
       <workItem from="1466001647861" duration="4253000" />
-      <workItem from="1466007384157" duration="21000" />
+      <workItem from="1466007384157" duration="164000" />
+      <workItem from="1466079640874" duration="2598000" />
     </task>
     <task id="LOCAL-00001" summary="Laravel 5.2 Adding upload file feature to form&#10;Persisting data and fixing bug&#10;">
       <created>1464629250450</created>
@@ -440,11 +463,18 @@
       <option name="project" value="LOCAL" />
       <updated>1465493982097</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Laravel 5.2  setting up categories and creating categories">
+      <created>1466007440761</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1466007440761</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="78832000" />
+    <option name="totallyTimeSpent" value="81573000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -456,7 +486,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
+    <frame x="-8" y="-8" width="1284" height="1010" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -464,7 +494,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49676377" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5045767" sideWeight="0.515625" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.49676377" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="1.0" sideWeight="0.484375" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26375404" sideWeight="0.5165336" order="3" side_tool="true" content_ui="tabs" />
@@ -504,7 +534,9 @@
     <MESSAGE value="Laravel 5.2 displaying images" />
     <MESSAGE value="Laravel 5.2 create a odel and migration for categories and work with edit post pages" />
     <MESSAGE value="Laravel 5.2  deleting post and deleting users with relationship" />
-    <option name="LAST_COMMIT_MESSAGE" value="Laravel 5.2  deleting post and deleting users with relationship" />
+    <MESSAGE value="Laravel 5.2  setting up categories and creating categories" />
+    <MESSAGE value="Laravel 5.2  update category and delete the category" />
+    <option name="LAST_COMMIT_MESSAGE" value="Laravel 5.2  update category and delete the category" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -587,13 +619,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -763,9 +788,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-          <folding>
-            <marker date="1465491485321" expanded="true" signature="1163:1430" placeholder="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -856,22 +878,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+          <folding>
+            <marker date="1466081132104" expanded="true" signature="78:610" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/AdminCategoriesController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="56" column="56" selection-start-line="56" selection-start-column="56" selection-end-line="56" selection-end-column="56" />
+        <state relative-caret-position="688">
+          <caret line="93" column="0" selection-start-line="93" selection-start-column="0" selection-end-line="93" selection-end-column="0" />
           <folding>
             <element signature="e#40#57#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/index.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/categories/edit.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        <state relative-caret-position="252">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <marker date="1466005599921" expanded="true" signature="78:458" placeholder="..." />
+            <marker date="1466082119485" expanded="true" signature="46:824" placeholder="..." />
           </folding>
         </state>
       </provider>
